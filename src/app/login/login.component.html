@@ -1,0 +1,22 @@
+<div class="login-container">
+    <img class="film" src="assets/images/film.png" alt="Image Not Found!">
+    <div class="logo">Test Logo</div>
+    <div class="des">
+        It’s one thing to ensure women, gender-diverse and non-binary people can get a job in the film industry, and
+        another matter to ensure they are not marginalized after they do.
+    </div>
+    <div class="login-form">
+        <div class="form-group">
+            <label for="uname">Username</label>
+            <input type="text" name="uname" class="form-control" [(ngModel)]="username">
+        </div>
+        <div class="form-group">
+            <label for="pword">Password</label>
+            <input type="password" name="pword" class="form-control" [(ngModel)]="password">
+        </div>
+        <div class="btn-container">
+            <div class="error">{{errorMsg}}</div>
+            <button class="btn btn-dark" (click)="login()">Login</button>
+        </div>
+    </div>
+</div>
