@@ -1,0 +1,42 @@
+.sidenav-container {
+  height: 100vh;
+}
+
+.sidenav {
+  width: 250px;
+  background-color: #000;
+  color: white;
+  padding: 16px;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.nav-item span {
+  margin-left: 10px;
+}
+
+.icon-button {
+  color: white;
+}
+
+.post-button {
+  background-color: #1d9bf0;
+  color: white;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.post-button:hover {
+  background-color: #1a8edb;
+}

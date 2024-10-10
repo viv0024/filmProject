@@ -1,0 +1,71 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav mode="side" opened class="sidenav">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <button mat-icon-button class="icon-button">
+          <mat-icon>home</mat-icon>
+        </button>
+        <span>Home</span>
+      </li>
+      <li class="nav-item">
+        <button mat-icon-button class="icon-button">
+          <mat-icon>search</mat-icon>
+        </button>
+        <span>Explore</span>
+      </li>
+      <li class="nav-item">
+        <button mat-icon-button class="icon-button">
+          <mat-icon>notifications</mat-icon>
+        </button>
+        <span>Notifications</span>
+      </li>
+      <li class="nav-item">
+        <button mat-icon-button class="icon-button">
+          <mat-icon>mail</mat-icon>
+        </button>
+        <span>Messages</span>
+      </li>
+      <li class="nav-item">
+        <button mat-icon-button class="icon-button">
+          <mat-icon>bookmark</mat-icon>
+        </button>
+        <span>Bookmarks</span>
+      </li>
+      <li class="nav-item">
+        <button mat-icon-button class="icon-button">
+          <mat-icon>groups</mat-icon>
+        </button>
+        <span>Communities</span>
+      </li>
+      <li class="nav-item">
+        <button mat-icon-button class="icon-button">
+          <mat-icon>stars</mat-icon>
+        </button>
+        <span>Premium</span>
+      </li>
+      <li class="nav-item">
+        <button mat-icon-button class="icon-button">
+          <mat-icon>verified</mat-icon>
+        </button>
+        <span>Verified Orgs</span>
+      </li>
+      <li class="nav-item">
+        <button mat-icon-button class="icon-button">
+          <mat-icon>person</mat-icon>
+        </button>
+        <span>Profile</span>
+      </li>
+      <li class="nav-item">
+        <button mat-icon-button class="icon-button">
+          <mat-icon>more_horiz</mat-icon>
+        </button>
+        <span>More</span>
+      </li>
+    </ul>
+    <button mat-flat-button class="post-button">Post</button>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
