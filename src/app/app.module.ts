@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { MovieComponent } from './movie/movie.component';
 import { FormsModule } from '@angular/forms';
 import { HeaderComponent } from './header/header.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HeaderComponent } from './header/header.component';
     LoginComponent,
     HomeComponent,
     MovieComponent,
-    HeaderComponent
+    HeaderComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
