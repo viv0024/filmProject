@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { HomeComponent } from './home/home.component';
 import type { Routes } from '@angular/router';
 
@@ -9,4 +9,14 @@ import type { Routes } from '@angular/router';
 })
 export class AppComponent {
   title = 'filmProject';
+  showScrollButton: boolean = false;
+
+  scrollToTop() {
+    window.scroll({
+      top: 0,
+      behavior: 'smooth' // Smooth scrolling
+    });
+  }
+
 }
+
