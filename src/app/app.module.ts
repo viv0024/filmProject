@@ -13,7 +13,7 @@ import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SideNavbarComponent } from './side-navbar/side-navbar.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-
+import { MatListModule } from '@angular/material/list';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +31,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     MatSidenavModule,     // Importing MatSidenavModule for the sidenav
     MatButtonModule,      // Importing MatButtonModule for buttons
     MatIconModule,        // Importing MatIconModule for material icons
+    MatListModule
 
   ],
   providers: [
