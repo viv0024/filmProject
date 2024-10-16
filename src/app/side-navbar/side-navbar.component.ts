@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-side-navbar',
@@ -6,14 +7,27 @@ import { Component } from '@angular/core';
   styleUrl: './side-navbar.component.css'
 })
 export class SideNavbarComponent {
+
+  constructor(private route: Router) { }
+
   navItems = [
-    { label: 'Home', icon: 'home' },
-    { label: 'Explore', icon: 'explore' },
+    { label: 'Home', icon: 'home', route: 'home' },
+    { label: 'LogIn', icon: 'login', route: 'login' },
     { label: 'Notifications', icon: 'notifications' },
     { label: 'Messages', icon: 'mail' },
     { label: 'Bookmarks', icon: 'bookmark' },
     { label: 'Profile', icon: 'person' },
-    // Add more items as needed
   ];
+
+  onNavigate(item: any) {
+    // console.log(item.route);
+    if (item.route) {
+      console.log(item.route);
+      // console.log(item.route);
+      this.route.navigate([`/${item.route}`]);
+    }
+
+
+  }
 
 }
