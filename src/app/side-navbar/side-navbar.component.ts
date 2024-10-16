@@ -23,7 +23,7 @@ export class SideNavbarComponent {
     // console.log(item.route);
     if (item.route) {
       console.log(item.route);
-      // console.log(item.route);
+      console.log(item.route);
       this.route.navigate([`/${item.route}`]);
     }
 

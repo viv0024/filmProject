@@ -1,5 +1,4 @@
 import { Component, HostListener } from '@angular/core';
-import { HomeComponent } from './home/home.component';
 import type { Routes } from '@angular/router';
 
 @Component({
