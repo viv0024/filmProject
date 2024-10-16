@@ -6,7 +6,8 @@
   padding: 10px 20px;
   background-color: #f5f5f5;
   border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.596);
 }
 
 /* Style for the logo */
@@ -38,7 +39,7 @@ button:hover {
 }
 
 /* Style for home and profile buttons */
-.home-btn,
+/* .home-btn,
 .profile-btn {
   color: #333;
-}
+} */

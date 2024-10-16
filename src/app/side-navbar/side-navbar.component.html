@@ -1,5 +1,5 @@
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav mode="side" opened>
+  <mat-sidenav class="custom-sidenav" mode="side" opened>
     <mat-nav-list>
       <mat-list-item class="nav-item" *ngFor="let item of navItems">
         <mat-icon>{{ item.icon }}</mat-icon>
@@ -9,6 +9,6 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <!-- Main content goes here -->
-    <app-login></app-login>
+     <app-login></app-login>
   </mat-sidenav-content>
 </mat-sidenav-container>
