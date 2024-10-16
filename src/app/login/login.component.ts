@@ -11,7 +11,7 @@ import { AuthService } from '../services/auth.service';
 export class LoginComponent {
 
   username = "test";
-  password = "1234";
+  password = "123";
   errorMsg = "";
   constructor(@Inject(AuthService) private auth: AuthService, @Inject(Router) private router: Router) { }
 
